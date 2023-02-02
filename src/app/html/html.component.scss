@@ -1,0 +1,26 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.topic-html{
+    .content{
+        line-height: 24px;
+        font-size: $font-sm;
+        font-weight: 400;
+    }
+    .head{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .started-btn{
+        font-size: $font-sm;
+        i{
+            font-size: 10px;
+        }
+    }
+}
+
+@include mobile{
+    .topic-html{
+        padding-bottom: $spacer-2;
+    }
+}

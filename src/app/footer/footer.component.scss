@@ -1,0 +1,25 @@
+@import "../../assets/scss/variables";
+
+.footer-module{
+    line-height: 20px;
+    .footer-div{
+        border-top: 1px solid $color-bg;
+        padding: $spacer-2 $spacer-0;
+    }
+    .copyright{
+        font-size: $font-xsm;
+        margin: 0;
+        padding: 0;
+    }
+    .links{
+        margin: 0;
+        font-size: $font-xsm;
+        text-decoration: none;
+        color: $color-black;
+        display: inline-block;
+        padding: $spacer-0 $spacer-2;
+        &.left-border{
+            border-left: 1px solid $color-black;
+        }
+    }
+}

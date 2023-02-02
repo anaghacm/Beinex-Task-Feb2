@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/scss/style.scss";
+
+
+.started-btn {
+    background-color: $color-btn;
+    color: $color-white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #0f660f;
+        color: $color-white;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+    }
+}
